@@ -15,5 +15,5 @@ text.match(/\A[A-Z]\w*\w\b/) != nil
 end
 
 def valid_phone_number?(phone)
-  phone.match
+  phone.match(/\b).count == 10
 end
